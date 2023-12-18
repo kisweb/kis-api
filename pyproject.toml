@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-lms"
+version = "0.1.0"
+description = ""
+authors = ["kisweb <kisarrweb@mail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.24.0.post1"
+fastapi = "^0.105.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
